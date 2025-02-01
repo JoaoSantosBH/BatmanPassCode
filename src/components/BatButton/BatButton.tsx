@@ -21,23 +21,19 @@ export function BatButton() {
 
     return (
         <>
-            <Button
-                onPress={handleGenerateButton}
-                title='botao'
-                accessibilityLabel='Click em mim'
-            />
+
             <BatTextInput pass={pass} />
 
             <Pressable
                 style={styles.button}
-                onPress={() => console.log('fui pressionado')}>
+                onPress={handleGenerateButton}>
                 <Text style={styles.text}> GENERATE</Text>
             </Pressable>
 
             <Pressable
                 style={styles.button}
                 onPress={handleCopyButton}>
-                <Text style={styles.text}> CREATE</Text>
+                <Text style={styles.text}> Copy</Text>
             </Pressable>
 
         </>
