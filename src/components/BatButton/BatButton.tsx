@@ -23,7 +23,7 @@ export function BatButton() {
         <>
 
             <BatTextInput pass={pass} />
-
+ 
             <Pressable
                 style={styles.button}
                 onPress={handleGenerateButton}>
@@ -33,7 +33,7 @@ export function BatButton() {
             <Pressable
                 style={styles.button}
                 onPress={handleCopyButton}>
-                <Text style={styles.text}> Copy</Text>
+                <Text style={styles.text}> COPY</Text>
             </Pressable>
 
         </>
